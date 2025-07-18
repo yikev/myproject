@@ -1,0 +1,19 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Virtual environment
+env/
+venv/
+
+# VS Code
+.vscode/
+
+# Django migration files
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# System files
+.DS_Store
+Thumbs.db
